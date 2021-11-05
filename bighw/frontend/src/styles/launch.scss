@@ -1,0 +1,49 @@
+.launch{
+    background-color: rgb(43, 61, 219);
+    width: 400px;
+    height: 400px;
+    margin: 10px 10px 10px 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .goods{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        .input{
+            height: 15px;
+            margin: auto;
+        }
+    }
+
+    .need{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        .num-input{
+            height: 150px;
+            margin: auto;
+        }
+    }
+
+    .ddl{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        .input{
+            height: 15px;
+            margin: auto;
+        }
+    }
+
+    
+
+    .button{
+        margin: 10px 10px 10px 10px;
+    }
+}
